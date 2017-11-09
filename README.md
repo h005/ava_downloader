@@ -2,6 +2,20 @@
 
 **AVA: A Large-Scale Database for Aesthetic Visual Analysis**
 
+# Usage:
+
+**the dataSet file link is dead**
+
+create the image folder first, and the images will download into this folder.
+
+$mkdir image
+
+$python ava_downloader.py *beginIndex endIndex*
+
+**Tips:** Note that *beginIndex* and *endIndex* both range from 1 to 255530. Inaddition, both the *beginIndex* and the *endIndex* will be downloaded.
+
+**omit the followings**
+
 
 ### Attention!
 **[http://www.lucamarchesotti.com/](http://www.lucamarchesotti.com/)**
@@ -47,7 +61,7 @@ Contact me if you have any. Thank you!
 
 ~~4. Run the script with command $python ava_downloader.py *beginIndex endIndex*~~
 
-~~5. **Tips:** Note that *beginIndex* and *endIndex* both range from 1 to 25553. Downloading all the images would **consume a lot of time**. It is recommended you download a small amount once a time.~~
+~~5. **Tips:** Note that *beginIndex* and *endIndex* both range from 1 to 255530. Downloading all the images would **consume a lot of time**. It is recommended you download a small amount once a time.~~
 
 ~~## More~~
 
